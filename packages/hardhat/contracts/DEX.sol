@@ -46,12 +46,11 @@ contract DEX {
         uint256 ethOutput
     );
 
-    /* ========== CONSTRUCTOR ========== */
-
+    /* ========== CONSTRUCTOR ========== *
     constructor(address tokenAddr) {
         token = IERC20(tokenAddr); //specifies the token address that will hook into the interface and be used through the variable 'token'
     }
-
+    
     /* ========== MUTATIVE FUNCTIONS ========== */
 
     /**
